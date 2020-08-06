@@ -1,11 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        padding:0;
+        margin:0;
+        font-size: 1.124em;
+        line-height: 1.6;
+    }
+    .page {
+        width: max(60%, 50%, 50vh);
+        height: 80vh;
+        padding: 2vh 4vw 4vh;
+        position: relative;
+        margin: 40px auto;
+        background-color: rgba(0,211,0,0.1);
+    }
+    h2 {
+        font-size: clamp(2rem, 3vw, 4rem);
+        padding: 1vh 1vw;
+        margin:0;
+    }
+    p {
+        font-size: clamp(1rem, 1.5vw, 1.5rem) ; /* calc(1vw + .5rem) */
+        line-height: clamp(1.6rem, 3vw, 3rem) ;
+    }
+</style>
 <body>
-    <h1>test titre</h1>
+
+<div class="page">
+    <h2>Lorem ipsum dolor sit amet</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem corrupti pariatur quibusdam eaque aliquid, amet eligendi, velit rerum sit fuga atque quaerat a, illum accusamus totam earum fugiat distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem corrupti pariatur quibusdam eaque aliquid, amet eligendi, velit rerum sit fuga atque quaerat a, illum accusamus totam earum fugiat distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem corrupti pariatur quibusdam eaque aliquid, amet eligendi, velit rerum sit fuga atque quaerat a, illum accusamus totam earum fugiat distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem corrupti pariatur quibusdam eaque aliquid, amet eligendi, velit rerum sit fuga atque quaerat a, illum accusamus totam earum fugiat distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora exercitationem corrupti pariatur quibusdam eaque aliquid, amet eligendi, velit rerum sit fuga atque quaerat a, illum accusamus totam earum fugiat distinctio. </p>
+</div>
+
 </body>
 </html>
